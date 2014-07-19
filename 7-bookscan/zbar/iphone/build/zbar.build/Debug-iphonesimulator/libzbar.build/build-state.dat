@@ -1,0 +1,1408 @@
+Tlibzbar
+v7
+r0
+t322983985.210558
+cCheck dependencies
+cProcessPCH /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch.gch include/prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch.gch include/prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/config.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/config.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code128.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code128.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code39.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code39.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ean.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/ean.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/i25.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/i25.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qr_finder.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/qr_finder.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/decoder.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/error.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/error.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/image.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/image.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/img_scanner.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/img_scanner.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/bch15_5.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/bch15_5.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/binarize.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/binarize.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/isaac.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/isaac.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qrdec.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdec.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qrdectxt.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdectxt.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/rs.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/rs.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/util.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/util.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/refcnt.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/refcnt.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/scanner.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/scanner.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/symbol.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/symbol.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarHelpController.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarHelpController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderController.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarSymbol.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarSymbol.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarImage.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarImageScanner.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImageScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderViewController.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderView.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarCVImage.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarCVImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/databar.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/databar.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderViewImpl_Simulator.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewImpl_Simulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code93.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code93.c normal i386 c com.apple.compilers.gcc.4_2
+cLibtool /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/libzbar.a normal i386
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CD481810000000000000110
+t1288995201
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.h
+c000000004CC128840000000000000733
+t1287727236
+s1843
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004CC1219F0000000000000AB3
+t1287725471
+s2739
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004CC121DB00000000000004FE
+t1287725531
+s1278
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h
+c000000004CC127F400000000000001F4
+t1287727092
+s500
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CoreVideo.h
+c000000004CC122CE00000000000004DB
+t1287725774
+s1243
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/assert.h
+c000000004CB3E4860000000000000DCB
+t1286857862
+s3531
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/errno.h
+c000000004CB3E48600000000000003EB
+t1286857862
+s1003
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/iconv.h
+c000000004A11EAB70000000000001FBE
+t1242688183
+s8126
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/inttypes.h
+c000000004CB3E48600000000000027D1
+t1286857862
+s10193
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/libkern/OSAtomic.h
+c000000004CB3E4860000000000002519
+t1286857862
+s9497
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/mach/mach_time.h
+c000000004CBFACAC0000000000000746
+t1287629996
+s1862
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/pthread.h
+c000000004CB3E48600000000000038F0
+t1286857862
+s14576
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdio.h
+c000000004CB3E48600000000000040AC
+t1286857862
+s16556
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
+c000000004CB3E4860000000000001731
+t1286857862
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/time.h
+c000000004CBFACAC0000000000001E17
+t1287629996
+s7703
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/time.h
+c000000004CB3E486000000000000178E
+t1286857862
+s6030
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/unistd.h
+c000000004CB3E486000000000000563E
+t1286857862
+s22078
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/float.h
+c000000004A1198340000000000001538
+t1242667060
+s5432
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004A1198340000000000000C7E
+t1242667060
+s3198
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
+c000000004A11983400000000000010DD
+t1242667060
+s4317
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004A1198340000000000003197
+t1242667060
+s12695
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/include/zbar.h
+c000000004D50CFE2000000000000D1C6
+t1297141730
+s53702
+i"zbar/Exception.h"
+i"zbar/Decoder.h"
+i"zbar/Scanner.h"
+i"zbar/Symbol.h"
+i"zbar/Image.h"
+i"zbar/ImageScanner.h"
+i"zbar/Video.h"
+i"zbar/Window.h"
+i"zbar/Processor.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/include/zbar/Decoder.h
+c000000004D50CFE20000000000001630
+t1297141730
+s5680
+i<string>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/include/zbar/Exception.h
+c000000004D50CFE20000000000001210
+t1297141730
+s4624
+i<exception>
+i<new>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/include/zbar/Image.h
+c000000004D50CFE200000000000021B5
+t1297141730
+s8629
+i<assert.h>
+i<iterator>
+i"Symbol.h"
+i"Exception.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/include/zbar/ImageScanner.h
+c000000004D50CFE20000000000000EAB
+t1297141730
+s3755
+i"Image.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/include/zbar/Processor.h
+c000000004D50CFE20000000000001B3B
+t1297141730
+s6971
+i"Exception.h"
+i"Image.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/include/zbar/Scanner.h
+c000000004D50CFE20000000000001065
+t1297141730
+s4197
+i<stdio.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/include/zbar/Symbol.h
+c000000004D50CFE2000000000000307A
+t1297141730
+s12410
+i<stdlib.h>
+i<string>
+i<ostream>
+i<assert.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/include/zbar/Video.h
+c000000004D50CFE2000000000000115D
+t1297141730
+s4445
+i"Image.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/include/zbar/Window.h
+c000000004D50CFE20000000000000E9D
+t1297141730
+s3741
+i"Image.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/config.c
+c000000004D50CFE200000000000014A1
+t1297141730
+s5281
+i<config.h>
+i<stdlib.h>
+i<string.h>
+i<errno.h>
+i<zbar.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder.c
+c000000004D50CFE200000000000034A8
+t1297141730
+s13480
+i<config.h>
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<zbar.h>
+i"debug.h"
+i"decoder.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code128.c
+c000000004D50CFE20000000000004F79
+t1297141730
+s20345
+i<config.h>
+i<string.h>
+i<zbar.h>
+i"debug.h"
+i"decoder.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code39.c
+c000000004D50CFE200000000000028BD
+t1297141730
+s10429
+i<config.h>
+i<string.h>
+i<zbar.h>
+i"debug.h"
+i"decoder.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code93.c
+c000000004D50CFE20000000000002A29
+t1297141730
+s10793
+i<config.h>
+i<zbar.h>
+i"debug.h"
+i"decoder.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/databar.c
+c000000004D50CFE20000000000008787
+t1297141730
+s34695
+i<config.h>
+i<zbar.h>
+i"debug.h"
+i"decoder.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/ean.c
+c000000004D50CFE20000000000006338
+t1297141730
+s25400
+i<config.h>
+i<zbar.h>
+i"debug.h"
+i"decoder.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/i25.c
+c000000004D50CFE20000000000001DCB
+t1297141730
+s7627
+i<config.h>
+i<string.h>
+i<zbar.h>
+i"debug.h"
+i"decoder.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/qr_finder.c
+c000000004D50CFE20000000000000BBC
+t1297141730
+s3004
+i<config.h>
+i<assert.h>
+i<zbar.h>
+i"debug.h"
+i"decoder.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/error.c
+c000000004D50CFE200000000000016DA
+t1297141730
+s5850
+i"error.h"
+i<string.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/image.c
+c000000004D50CFE2000000000000232C
+t1297141730
+s9004
+i"error.h"
+i"image.h"
+i"refcnt.h"
+i<png.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/img_scanner.c
+c000000004D50CFE20000000000006778
+t1297141730
+s26488
+i<config.h>
+i<unistd.h>
+i<inttypes.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i<zbar.h>
+i"error.h"
+i"image.h"
+i"timer.h"
+i"qrcode.h"
+i"img_scanner.h"
+i"svg.h"
+i"svg.c"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/bch15_5.c
+c000000004D50CFE200000000000013BE
+t1297141730
+s5054
+i"bch15_5.h"
+i<stdio.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/binarize.c
+c000000004D50CFE20000000000004C7A
+t1297141730
+s19578
+i<stdlib.h>
+i<math.h>
+i<string.h>
+i"util.h"
+i"image.h"
+i"binarize.h"
+i<stdio.h>
+i"image.c"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/isaac.c
+c000000004D50CFE20000000000000EDF
+t1297141730
+s3807
+i<float.h>
+i<math.h>
+i<string.h>
+i"isaac.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdec.c
+c000000004D50CFE20000000000020EAF
+t1297141730
+s134831
+i<config.h>
+i<stdlib.h>
+i<limits.h>
+i<string.h>
+i<time.h>
+i"qrcode.h"
+i"qrdec.h"
+i"bch15_5.h"
+i"rs.h"
+i"isaac.h"
+i"util.h"
+i"binarize.h"
+i"image.h"
+i"error.h"
+i"svg.h"
+i"image.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdectxt.c
+c000000004D50CFE20000000000003998
+t1297141730
+s14744
+i<config.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<iconv.h>
+i"qrcode.h"
+i"qrdec.h"
+i"util.h"
+i"image.h"
+i"error.h"
+i"img_scanner.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/rs.c
+c000000004D50CFE200000000000066E1
+t1297141730
+s26337
+i<stdlib.h>
+i<string.h>
+i"rs.h"
+i<stdio.h>
+i<stdlib.h>
+i<stdio.h>
+i<stdio.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/util.c
+c000000004D50CFE20000000000000D5A
+t1297141730
+s3418
+i<stdlib.h>
+i"util.h"
+i<features.h>
+i<limits.h>
+i<math.h>
+i<stdio.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/refcnt.c
+c000000004D50CFE200000000000005BC
+t1297141730
+s1468
+i"refcnt.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/scanner.c
+c000000004D50CFE2000000000000278F
+t1297141730
+s10127
+i<config.h>
+i<stdlib.h>
+i<stddef.h>
+i<string.h>
+i<zbar.h>
+i"svg.h"
+i"debug.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/symbol.c
+c000000004D50CFE20000000000002C15
+t1297141730
+s11285
+i<config.h>
+i<stdio.h>
+i<string.h>
+i<assert.h>
+i<zbar.h>
+i"symbol.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarCVImage.h
+c000000004D50CFE200000000000005F8
+t1297141730
+s1528
+i<ZBarSDK/ZBarImage.h>
+i<CoreVideo/CoreVideo.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarCVImage.m
+c000000004D50CFE20000000000001767
+t1297141730
+s5991
+i"ZBarCVImage.h"
+i"debug.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarHelpController.m
+c000000004D50CFE20000000000001E82
+t1297141730
+s7810
+i<ZBarSDK/ZBarHelpController.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImage.m
+c000000004D50CFE20000000000001ED6
+t1297141730
+s7894
+i<UIKit/UIKit.h>
+i<ZBarSDK/ZBarImage.h>
+i"debug.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImageScanner.m
+c000000004D50CFE200000000000008F4
+t1297141730
+s2292
+i<ZBarSDK/ZBarImageScanner.h>
+i"debug.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderController.m
+c000000004D50CFE200000000000055A8
+t1297141730
+s21928
+i<ZBarSDK/ZBarReaderController.h>
+i<ZBarSDK/ZBarHelpController.h>
+i"debug.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderView.m
+c000000004D50CFE20000000000002DE4
+t1297141730
+s11748
+i<ZBarSDK/ZBarReaderView.h>
+i"debug.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewController.m
+c000000004D50CFE20000000000002AF5
+t1297141730
+s10997
+i<ZBarSDK/ZBarReaderViewController.h>
+i<ZBarSDK/ZBarReaderView.h>
+i<ZBarSDK/ZBarHelpController.h>
+i"debug.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewImpl_Simulator.m
+c000000004D50CFE200000000000017C9
+t1297141730
+s6089
+i<ZBarSDK/ZBarReaderView.h>
+i<ZBarSDK/ZBarReaderViewController.h>
+i"debug.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarSymbol.m
+c000000004D50CFE200000000000011EB
+t1297141730
+s4587
+i<ZBarSDK/ZBarSymbol.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/libzbar.a
+t1301291185
+s979888
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarCVImage.o
+t1301291184
+s23180
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarHelpController.o
+t1301291184
+s72572
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarImage.o
+t1301291184
+s33492
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarImageScanner.o
+t1301291184
+s14404
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderController.o
+t1301291184
+s103700
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderView.o
+t1301291185
+s87168
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderViewController.o
+t1301291184
+s95800
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderViewImpl_Simulator.o
+t1301291185
+s64660
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarSymbol.o
+t1301291184
+s24184
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/bch15_5.o
+t1301291183
+s6384
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/binarize.o
+t1301291183
+s3852
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code128.o
+t1301291183
+s24608
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code39.o
+t1301291183
+s15976
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code93.o
+t1301291185
+s19496
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/config.o
+t1301291183
+s6584
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/databar.o
+t1301291185
+s35428
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/decoder.o
+t1301291183
+s25556
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ean.o
+t1301291183
+s24836
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/error.o
+t1301291183
+s10616
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/i25.o
+t1301291183
+s14644
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/image.o
+t1301291183
+s19588
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/img_scanner.o
+t1301291183
+s32260
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/isaac.o
+t1301291183
+s8220
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qr_finder.o
+t1301291183
+s9564
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qrdec.o
+t1301291185
+s105076
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qrdectxt.o
+t1301291184
+s17368
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/refcnt.o
+t1301291184
+s1888
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/rs.o
+t1301291184
+s20568
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/scanner.o
+t1301291184
+s10456
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/symbol.o
+t1301291184
+s29256
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/util.o
+t1301291184
+s3836
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/zbar.LinkFileList
+c000000004D9020AE0000000000001364
+t1301291182
+s4964
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/debug.h
+c000000004D50CFE200000000000006C0
+t1297141730
+s1728
+i<mach/mach_time.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/ZBarSDK/ZBarHelpController.h
+c000000004D50CFE200000000000007B2
+t1297141730
+s1970
+i<UIKit/UIKit.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/ZBarSDK/ZBarImage.h
+c000000004D50CFE20000000000000905
+t1297141730
+s2309
+i<UIKit/UIKit.h>
+i"zbar.h"
+i"ZBarSymbol.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/ZBarSDK/ZBarImageScanner.h
+c000000004D50CFE200000000000006AB
+t1297141730
+s1707
+i<Foundation/Foundation.h>
+i"zbar.h"
+i"ZBarImage.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/ZBarSDK/ZBarReaderController.h
+c000000004D50CFE2000000000000145B
+t1297141730
+s5211
+i<UIKit/UIKit.h>
+i"ZBarImageScanner.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/ZBarSDK/ZBarReaderView.h
+c000000004D50CFE20000000000000FD9
+t1297141730
+s4057
+i<UIKit/UIKit.h>
+i"ZBarImageScanner.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/ZBarSDK/ZBarReaderViewController.h
+c000000004D50CFE20000000000000FA8
+t1297141730
+s4008
+i<UIKit/UIKit.h>
+i"ZBarReaderController.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/ZBarSDK/ZBarSymbol.h
+c000000004D50CFE20000000000000957
+t1297141730
+s2391
+i<Foundation/Foundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i"zbar.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/config.h
+c000000004D50CFE200000000000019B3
+t1297141730
+s6579
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/prefix.pch
+c000000004D50CFE20000000000000131
+t1297141730
+s305
+i<Foundation/Foundation.h>
+i<CoreFoundation/CoreFoundation.h>
+i<CoreGraphics/CoreGraphics.h>
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i<AVFoundation/AVFoundation.h>
+i<CoreMedia/CoreMedia.h>
+i<CoreVideo/CoreVideo.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/debug.h
+c000000004D50CFE20000000000000BD3
+t1297141730
+s3027
+i<stdio.h>
+i<stdio.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/decoder.h
+c000000004D50CFE20000000000001C85
+t1297141730
+s7301
+i<config.h>
+i<stdlib.h>
+i<zbar.h>
+i"decoder/ean.h"
+i"decoder/i25.h"
+i"decoder/databar.h"
+i"decoder/code39.h"
+i"decoder/code93.h"
+i"decoder/code128.h"
+i"decoder/pdf417.h"
+i"decoder/qr_finder.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/decoder/code128.h
+c000000004D50CFE200000000000007C6
+t1297141730
+s1990
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/decoder/code39.h
+c000000004D50CFE2000000000000077F
+t1297141730
+s1919
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/decoder/code93.h
+c000000004D50CFE20000000000000767
+t1297141730
+s1895
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/decoder/databar.h
+c000000004D50CFE20000000000000B83
+t1297141730
+s2947
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/decoder/ean.h
+c000000004D50CFE20000000000000CCE
+t1297141730
+s3278
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/decoder/i25.h
+c000000004D50CFE200000000000007BC
+t1297141730
+s1980
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/decoder/pdf417.h
+c000000004D50CFE2000000000000073E
+t1297141730
+s1854
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/decoder/qr_finder.h
+c000000004D50CFE20000000000000206
+t1297141730
+s518
+i"qrcode.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/error.h
+c000000004D50CFE20000000000001B31
+t1297141730
+s6961
+i<config.h>
+i<inttypes.h>
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<errno.h>
+i<assert.h>
+i<zbar.h>
+i<windows.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/image.c
+c000000004D50CFE2000000000000232C
+t1297141730
+s9004
+i"error.h"
+i"image.h"
+i"refcnt.h"
+i<png.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/image.h
+c000000004D50CFE20000000000001218
+t1297141730
+s4632
+i<config.h>
+i<inttypes.h>
+i<stdlib.h>
+i<assert.h>
+i<zbar.h>
+i"error.h"
+i"symbol.h"
+i"refcnt.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/img_scanner.h
+c000000004D50CFE20000000000000684
+t1297141730
+s1668
+i<zbar.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/qrcode.h
+c000000004D50CFE20000000000000A1F
+t1297141730
+s2591
+i<zbar.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/qrcode/bch15_5.h
+c000000004D50CFE20000000000000360
+t1297141730
+s864
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/qrcode/binarize.h
+c000000004D50CFE2000000000000028D
+t1297141730
+s653
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/qrcode/isaac.h
+c000000004D50CFE20000000000000448
+t1297141730
+s1096
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/qrcode/qrdec.h
+c000000004D50CFE200000000000014D3
+t1297141730
+s5331
+i<zbar.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/qrcode/rs.h
+c000000004D50CFE20000000000000A5A
+t1297141730
+s2650
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/qrcode/util.h
+c000000004D50CFE2000000000000084C
+t1297141730
+s2124
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/refcnt.h
+c000000004D50CFE20000000000000979
+t1297141730
+s2425
+i<config.h>
+i<assert.h>
+i<windows.h>
+i<libkern/OSAtomic.h>
+i<pthread.h>
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/svg.c
+c000000004D50CFE2000000000000171C
+t1297141730
+s5916
+i<stdlib.h>
+i<stdio.h>
+i<stdarg.h>
+i"svg.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/svg.h
+c000000004D50CFE20000000000000838
+t1297141730
+s2104
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/symbol.h
+c000000004D50CFE20000000000000DDE
+t1297141730
+s3550
+i<stdlib.h>
+i<zbar.h>
+i"refcnt.h"
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/zbar/timer.h
+c000000004D50CFE20000000000000F9A
+t1297141730
+s3994
+i<time.h>
+i<sys/time.h>
+i<windows.h>
+
+N/var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch.gch
+t1301291183
+s17880624
+
+N/var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch.gch
+t1301291182
+s2138480
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322983982#322983982#0(0"0(0#1#0"2502759056#0"0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarCVImage.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarCVImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322983984.720829
+e322983984.894554
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarCVImage.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarCVImage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarCVImage.m322983984#322983984#0(0"0(0#0#88"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarCVImage.m2502759056#1680"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarCVImage.m -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarCVImage.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarHelpController.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarHelpController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322983984.110315
+e322983984.313267
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarHelpController.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarHelpController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarHelpController.m322983984#322983984#0(0"0(0#0#95"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarHelpController.m2502759056#1694"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarHelpController.m -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarHelpController.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarImage.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImage.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322983984.313433
+e322983984.571529
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarImage.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImage.m322983984#322983984#0(0"0(0#0#86"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImage.m2502759056#1676"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImage.m -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarImage.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarImageScanner.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImageScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322983984.525236
+e322983984.684610
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarImageScanner.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImageScanner.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImageScanner.m322983984#322983984#0(0"0(0#0#93"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImageScanner.m2502759056#1690"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarImageScanner.m -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarImageScanner.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderController.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322983984.182367
+e322983984.720672
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderController.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderController.m322983984#322983984#0(0"0(0#0#97"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderController.m2502759056#1698"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderController.m -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderController.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderView.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322983984.684760
+e322983985.047052
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderView.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderView.m322983984#322983985#0(0"0(0#0#91"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderView.m2502759056#1686"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderView.m -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderView.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderViewController.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322983984.571684
+e322983984.974573
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderViewController.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@109"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewController.m322983984#322983984#0(0"0(0#0#101"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewController.m2502759056#1706"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewController.m -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderViewController.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderViewImpl_Simulator.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewImpl_Simulator.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322983984.974730
+e322983985.184828
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderViewImpl_Simulator.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewImpl_Simulator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewImpl_Simulator.m322983984#322983985#0(0"0(0#0#105"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewImpl_Simulator.m2502759056#1714"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarReaderViewImpl_Simulator.m -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarReaderViewImpl_Simulator.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarSymbol.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarSymbol.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322983984.282964
+e322983984.525075
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarSymbol.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarSymbol.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarSymbol.m322983984#322983984#0(0"0(0#0#87"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarSymbol.m2502759056#1678"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ZBarSymbol.m -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ZBarSymbol.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/bch15_5.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/bch15_5.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.758831
+e322983983.818218
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/bch15_5.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/bch15_5.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/bch15_5.c322983983#322983983#0(0"0(0#0#99"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/bch15_5.c2502759056#1633"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/bch15_5.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/bch15_5.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/binarize.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/binarize.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.793601
+e322983983.924247
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/binarize.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/binarize.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/binarize.c322983983#322983983#0(0"0(0#0#100"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/binarize.c2502759056#1635"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/binarize.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/binarize.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code128.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code128.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.389571
+e322983983.661218
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code128.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code128.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code128.c322983983#322983983#0(0"0(0#0#100"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code128.c2502759056#1634"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code128.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code128.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code39.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code39.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.390900
+e322983983.554223
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code39.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code39.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code39.c322983983#322983983#0(0"0(0#0#99"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code39.c2502759056#1632"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code39.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code39.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code93.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code93.c normal i386 c com.apple.compilers.gcc.4_2
+s322983985.030310
+e322983985.152916
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code93.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code93.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code93.c322983985#322983985#0(0"0(0#0#99"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code93.c2502759056#1632"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/code93.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/code93.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/config.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/config.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.387985
+e322983983.501767
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/config.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/config.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/config.c322983983#322983983#0(0"0(0#0#91"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/config.c2502759056#1624"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/config.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/config.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/databar.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/databar.c normal i386 c com.apple.compilers.gcc.4_2
+s322983984.894719
+e322983985.179184
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/databar.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/databar.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/databar.c322983984#322983985#0(0"0(0#0#100"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/databar.c2502759056#1634"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/databar.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/databar.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/decoder.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.627064
+e322983983.805496
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/decoder.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder.c322983983#322983983#0(0"0(0#0#92"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder.c2502759056#1626"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/decoder.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ean.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/ean.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.392246
+e322983983.626895
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ean.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/ean.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/ean.c322983983#322983983#0(0"0(0#0#96"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/ean.c2502759056#1626"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/ean.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/ean.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/error.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/error.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.644307
+e322983983.758679
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/error.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/error.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/error.c322983983#322983983#0(0"0(0#0#90"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/error.c2502759056#1622"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/error.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/error.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/i25.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/i25.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.501920
+e322983983.644162
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/i25.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/i25.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/i25.c322983983#322983983#0(0"0(0#0#96"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/i25.c2502759056#1626"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/i25.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/i25.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/image.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/image.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.658409
+e322983983.793441
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/image.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/image.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/image.c322983983#322983983#0(0"0(0#0#90"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/image.c2502759056#1622"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/image.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/image.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/img_scanner.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/img_scanner.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.661356
+e322983983.968540
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/img_scanner.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/img_scanner.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/img_scanner.c322983983#322983983#0(0"0(0#0#96"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/img_scanner.c2502759056#1634"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/img_scanner.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/img_scanner.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/isaac.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/isaac.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.805786
+e322983983.907161
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/isaac.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/isaac.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/isaac.c322983983#322983983#0(0"0(0#0#97"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/isaac.c2502759056#1629"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/isaac.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/isaac.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qr_finder.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/qr_finder.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.554381
+e322983983.658260
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qr_finder.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/qr_finder.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/qr_finder.c322983983#322983983#0(0"0(0#0#102"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/qr_finder.c2502759056#1638"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/decoder/qr_finder.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qr_finder.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qrdec.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdec.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.818643
+e322983985.030170
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qrdec.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdec.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdec.c322983983#322983985#0(0"0(0#0#97"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdec.c2502759056#1629"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdec.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qrdec.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qrdectxt.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdectxt.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.907322
+e322983984.089073
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qrdectxt.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdectxt.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdectxt.c322983983#322983984#0(0"0(0#0#100"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdectxt.c2502759056#1635"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/qrdectxt.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/qrdectxt.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/refcnt.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/refcnt.c normal i386 c com.apple.compilers.gcc.4_2
+s322983984.030444
+e322983984.078824
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/refcnt.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/refcnt.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/refcnt.c322983984#322983984#0(0"0(0#0#91"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/refcnt.c2502759056#1624"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/refcnt.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/refcnt.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/rs.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/rs.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.924477
+e322983984.110159
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/rs.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/rs.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/rs.c322983983#322983984#0(0"0(0#0#94"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/rs.c2502759056#1623"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/rs.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/rs.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/scanner.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/scanner.c normal i386 c com.apple.compilers.gcc.4_2
+s322983984.078982
+e322983984.182216
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/scanner.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/scanner.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/scanner.c322983984#322983984#0(0"0(0#0#92"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/scanner.c2502759056#1626"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/scanner.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/scanner.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/symbol.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/symbol.c normal i386 c com.apple.compilers.gcc.4_2
+s322983984.089232
+e322983984.282805
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/symbol.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/symbol.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/symbol.c322983984#322983984#0(0"0(0#0#91"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/symbol.c2502759056#1624"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/symbol.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/symbol.o0#
+
+CCompileC build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/util.o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/util.c normal i386 c com.apple.compilers.gcc.4_2
+s322983983.968697
+e322983984.030287
+r1
+xCompileC
+xbuild/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/util.o
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/util.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@104"Compile /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/util.c322983983#322983984#0(0"0(0#0#96"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/util.c2502759056#1627"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -include /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../zbar/qrcode/util.c -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/util.o0#
+
+CLibtool /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/libzbar.a normal i386
+s322983985.184956
+e322983985.210470
+r1
+xLibtool
+x/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/libzbar.a
+xnormal
+xi386
+lSLF07#2@57"Libtool build/Debug-iphonesimulator/libzbar.a normal i386322983985#322983985#0(0"0(0#0#0"2502759056#847"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -filelist /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/Objects-normal/i386/zbar.LinkFileList -o /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/libzbar.a0#
+
+CProcessPCH /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch.gch include/prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322983982.299037
+e322983983.387821
+r1
+xProcessPCH
+x/var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch.gch
+xinclude/prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile include/prefix.pch322983982#322983983#0(0"0(0#0#93"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/prefix.pch2502759056#1525"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/prefix.pch -o /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cvwhndlxhjgrmadutuowebevyqdi/prefix.pch.gch0#
+
+CProcessPCH /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch.gch include/prefix.pch normal i386 c com.apple.compilers.gcc.4_2
+s322983982.295582
+e322983982.415069
+r1
+xProcessPCH
+x/var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch.gch
+xinclude/prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile include/prefix.pch322983982#322983982#0(0"0(0#0#93"/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/prefix.pch2502759056#1471"    cd /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG_OBJC=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -F/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/include -Iinclude -I../include -I../zbar -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources/i386 -I/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/libzbar.build/DerivedSources -c /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/include/prefix.pch -o /var/folders/Vp/VpzJc92MGh4WvjgPUkj-sE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/prefix-cxwxtgczgpurdeclbltoctzqdqyd/prefix.pch.gch0#
+

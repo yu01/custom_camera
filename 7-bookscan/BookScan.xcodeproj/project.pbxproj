@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D897E20C13011C3400553D44 /* BookInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D897E20B13011C3400553D44 /* BookInfo.m */; };
+		D897E20F13011E1300553D44 /* BookInfoParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D897E20E13011E1300553D44 /* BookInfoParser.m */; };
+		D897E213130120B400553D44 /* BookScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D897E211130120B400553D44 /* BookScanViewController.m */; };
+		D897E214130120B400553D44 /* BookScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D897E212130120B400553D44 /* BookScanViewController.xib */; };
+		D8CB212613405A0700E07F15 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CB212513405A0700E07F15 /* libzbar.a */; };
+		D8E82D321301074B00385E72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E82D311301074B00385E72 /* UIKit.framework */; };
+		D8E82D341301074B00385E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E82D331301074B00385E72 /* Foundation.framework */; };
+		D8E82D361301074B00385E72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E82D351301074B00385E72 /* CoreGraphics.framework */; };
+		D8E82D3C1301074B00385E72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8E82D3A1301074B00385E72 /* InfoPlist.strings */; };
+		D8E82D3F1301074B00385E72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E82D3E1301074B00385E72 /* main.m */; };
+		D8E82D421301074B00385E72 /* BookScanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E82D411301074B00385E72 /* BookScanAppDelegate.m */; };
+		D8E82D451301074B00385E72 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8E82D431301074B00385E72 /* MainWindow.xib */; };
+		D8E82D56130109AA00385E72 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E82D4F130109A900385E72 /* zbar-samples.png */; };
+		D8E82D57130109AA00385E72 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = D8E82D50130109A900385E72 /* zbar-helpicons.png */; };
+		D8E82D58130109AA00385E72 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = D8E82D51130109A900385E72 /* zbar-help.html */; };
+		D8E82D6D13010E4D00385E72 /* GTMStringEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E82D6C13010E4D00385E72 /* GTMStringEncoding.m */; };
+		D8E82D75130110C400385E72 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E82D70130110C400385E72 /* AVFoundation.framework */; };
+		D8E82D76130110C400385E72 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E82D71130110C400385E72 /* CoreMedia.framework */; };
+		D8E82D77130110C400385E72 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E82D72130110C400385E72 /* CoreVideo.framework */; };
+		D8E82D78130110C400385E72 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E82D73130110C400385E72 /* libiconv.dylib */; };
+		D8E82D79130110C400385E72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E82D74130110C400385E72 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8E82D5D130109AB00385E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8E82D4C130109A900385E72 /* zbar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = libzbar;
+		};
+		D8E82D5F130109AB00385E72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8E82D4C130109A900385E72 /* zbar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DC3CEF9D121633C500D7A786;
+			remoteInfo = readertest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D897E20A13011C3400553D44 /* BookInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookInfo.h; sourceTree = "<group>"; };
+		D897E20B13011C3400553D44 /* BookInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookInfo.m; sourceTree = "<group>"; };
+		D897E20D13011E1300553D44 /* BookInfoParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookInfoParser.h; sourceTree = "<group>"; };
+		D897E20E13011E1300553D44 /* BookInfoParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookInfoParser.m; sourceTree = "<group>"; };
+		D897E210130120B400553D44 /* BookScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookScanViewController.h; sourceTree = "<group>"; };
+		D897E211130120B400553D44 /* BookScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookScanViewController.m; sourceTree = "<group>"; };
+		D897E212130120B400553D44 /* BookScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookScanViewController.xib; sourceTree = "<group>"; };
+		D8CB212513405A0700E07F15 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libzbar.a; path = "zbar/iphone/build/Debug-iphoneos/libzbar.a"; sourceTree = SOURCE_ROOT; };
+		D8E82D2D1301074B00385E72 /* BookScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E82D311301074B00385E72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8E82D331301074B00385E72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8E82D351301074B00385E72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8E82D391301074B00385E72 /* BookScan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookScan-Info.plist"; sourceTree = "<group>"; };
+		D8E82D3B1301074B00385E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8E82D3D1301074B00385E72 /* BookScan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookScan-Prefix.pch"; sourceTree = "<group>"; };
+		D8E82D3E1301074B00385E72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8E82D401301074B00385E72 /* BookScanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookScanAppDelegate.h; sourceTree = "<group>"; };
+		D8E82D411301074B00385E72 /* BookScanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookScanAppDelegate.m; sourceTree = "<group>"; };
+		D8E82D441301074B00385E72 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D8E82D4C130109A900385E72 /* zbar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = zbar.xcodeproj; path = zbar/iphone/zbar.xcodeproj; sourceTree = "<group>"; };
+		D8E82D4F130109A900385E72 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zbar-samples.png"; path = "zbar/iphone/res/zbar-samples.png"; sourceTree = "<group>"; };
+		D8E82D50130109A900385E72 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zbar-helpicons.png"; path = "zbar/iphone/res/zbar-helpicons.png"; sourceTree = "<group>"; };
+		D8E82D51130109A900385E72 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = "zbar-help.html"; path = "zbar/iphone/res/zbar-help.html"; sourceTree = "<group>"; };
+		D8E82D6A13010E2800385E72 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMDefines.h; path = "google-toolbox-for-mac-read-only/GTMDefines.h"; sourceTree = "<group>"; };
+		D8E82D6B13010E4D00385E72 /* GTMStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMStringEncoding.h; path = "google-toolbox-for-mac-read-only/Foundation/GTMStringEncoding.h"; sourceTree = "<group>"; };
+		D8E82D6C13010E4D00385E72 /* GTMStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMStringEncoding.m; path = "google-toolbox-for-mac-read-only/Foundation/GTMStringEncoding.m"; sourceTree = "<group>"; };
+		D8E82D70130110C400385E72 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D8E82D71130110C400385E72 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D8E82D72130110C400385E72 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D8E82D73130110C400385E72 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		D8E82D74130110C400385E72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8E82D2A1301074B00385E72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E82D75130110C400385E72 /* AVFoundation.framework in Frameworks */,
+				D8E82D76130110C400385E72 /* CoreMedia.framework in Frameworks */,
+				D8E82D77130110C400385E72 /* CoreVideo.framework in Frameworks */,
+				D8E82D78130110C400385E72 /* libiconv.dylib in Frameworks */,
+				D8E82D79130110C400385E72 /* QuartzCore.framework in Frameworks */,
+				D8E82D321301074B00385E72 /* UIKit.framework in Frameworks */,
+				D8E82D341301074B00385E72 /* Foundation.framework in Frameworks */,
+				D8E82D361301074B00385E72 /* CoreGraphics.framework in Frameworks */,
+				D8CB212613405A0700E07F15 /* libzbar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8E82D221301074B00385E72 = {
+			isa = PBXGroup;
+			children = (
+				D8E82D6913010DCE00385E72 /* GTM */,
+				D8E82D4B130108FD00385E72 /* ZBar */,
+				D8E82D371301074B00385E72 /* BookScan */,
+				D8E82D301301074B00385E72 /* Frameworks */,
+				D8E82D2E1301074B00385E72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8E82D2E1301074B00385E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8E82D2D1301074B00385E72 /* BookScan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8E82D301301074B00385E72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8CB212513405A0700E07F15 /* libzbar.a */,
+				D8E82D70130110C400385E72 /* AVFoundation.framework */,
+				D8E82D71130110C400385E72 /* CoreMedia.framework */,
+				D8E82D72130110C400385E72 /* CoreVideo.framework */,
+				D8E82D73130110C400385E72 /* libiconv.dylib */,
+				D8E82D74130110C400385E72 /* QuartzCore.framework */,
+				D8E82D311301074B00385E72 /* UIKit.framework */,
+				D8E82D331301074B00385E72 /* Foundation.framework */,
+				D8E82D351301074B00385E72 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8E82D371301074B00385E72 /* BookScan */ = {
+			isa = PBXGroup;
+			children = (
+				D8E82D401301074B00385E72 /* BookScanAppDelegate.h */,
+				D8E82D411301074B00385E72 /* BookScanAppDelegate.m */,
+				D8E82D431301074B00385E72 /* MainWindow.xib */,
+				D8E82D381301074B00385E72 /* Supporting Files */,
+				D897E20A13011C3400553D44 /* BookInfo.h */,
+				D897E20B13011C3400553D44 /* BookInfo.m */,
+				D897E20D13011E1300553D44 /* BookInfoParser.h */,
+				D897E20E13011E1300553D44 /* BookInfoParser.m */,
+				D897E210130120B400553D44 /* BookScanViewController.h */,
+				D897E211130120B400553D44 /* BookScanViewController.m */,
+				D897E212130120B400553D44 /* BookScanViewController.xib */,
+			);
+			path = BookScan;
+			sourceTree = "<group>";
+		};
+		D8E82D381301074B00385E72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8E82D391301074B00385E72 /* BookScan-Info.plist */,
+				D8E82D3A1301074B00385E72 /* InfoPlist.strings */,
+				D8E82D3D1301074B00385E72 /* BookScan-Prefix.pch */,
+				D8E82D3E1301074B00385E72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8E82D4B130108FD00385E72 /* ZBar */ = {
+			isa = PBXGroup;
+			children = (
+				D8E82D4C130109A900385E72 /* zbar.xcodeproj */,
+				D8E82D4F130109A900385E72 /* zbar-samples.png */,
+				D8E82D50130109A900385E72 /* zbar-helpicons.png */,
+				D8E82D51130109A900385E72 /* zbar-help.html */,
+			);
+			name = ZBar;
+			sourceTree = "<group>";
+		};
+		D8E82D4D130109A900385E72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8E82D5E130109AB00385E72 /* libzbar.a */,
+				D8E82D60130109AB00385E72 /* readertest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8E82D6913010DCE00385E72 /* GTM */ = {
+			isa = PBXGroup;
+			children = (
+				D8E82D6A13010E2800385E72 /* GTMDefines.h */,
+				D8E82D6B13010E4D00385E72 /* GTMStringEncoding.h */,
+				D8E82D6C13010E4D00385E72 /* GTMStringEncoding.m */,
+			);
+			name = GTM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8E82D2C1301074B00385E72 /* BookScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8E82D481301074B00385E72 /* Build configuration list for PBXNativeTarget "BookScan" */;
+			buildPhases = (
+				D8E82D291301074B00385E72 /* Sources */,
+				D8E82D2A1301074B00385E72 /* Frameworks */,
+				D8E82D2B1301074B00385E72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookScan;
+			productName = BookScan;
+			productReference = D8E82D2D1301074B00385E72 /* BookScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8E82D241301074B00385E72 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D8E82D271301074B00385E72 /* Build configuration list for PBXProject "BookScan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8E82D221301074B00385E72;
+			productRefGroup = D8E82D2E1301074B00385E72 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D8E82D4D130109A900385E72 /* Products */;
+					ProjectRef = D8E82D4C130109A900385E72 /* zbar.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D8E82D2C1301074B00385E72 /* BookScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D8E82D5E130109AB00385E72 /* libzbar.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzbar.a;
+			remoteRef = D8E82D5D130109AB00385E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D8E82D60130109AB00385E72 /* readertest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = readertest.app;
+			remoteRef = D8E82D5F130109AB00385E72 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8E82D2B1301074B00385E72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E82D3C1301074B00385E72 /* InfoPlist.strings in Resources */,
+				D8E82D451301074B00385E72 /* MainWindow.xib in Resources */,
+				D8E82D56130109AA00385E72 /* zbar-samples.png in Resources */,
+				D8E82D57130109AA00385E72 /* zbar-helpicons.png in Resources */,
+				D8E82D58130109AA00385E72 /* zbar-help.html in Resources */,
+				D897E214130120B400553D44 /* BookScanViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8E82D291301074B00385E72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E82D3F1301074B00385E72 /* main.m in Sources */,
+				D8E82D421301074B00385E72 /* BookScanAppDelegate.m in Sources */,
+				D8E82D6D13010E4D00385E72 /* GTMStringEncoding.m in Sources */,
+				D897E20C13011C3400553D44 /* BookInfo.m in Sources */,
+				D897E20F13011E1300553D44 /* BookInfoParser.m in Sources */,
+				D897E213130120B400553D44 /* BookScanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8E82D3A1301074B00385E72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8E82D3B1301074B00385E72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8E82D431301074B00385E72 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8E82D441301074B00385E72 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8E82D461301074B00385E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/zbar/include $(SRCROOT)/zbar/iphone/include/ZBarSDK";
+			};
+			name = Debug;
+		};
+		D8E82D471301074B00385E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D8E82D491301074B00385E72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookScan/BookScan-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/zbar/include",
+					"$(SRCROOT)/zbar/iphone/include/ZBarSDK",
+				);
+				INFOPLIST_FILE = "BookScan/BookScan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/zbar/iphone/build/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8E82D4A1301074B00385E72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BookScan/BookScan-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/zbar/include",
+					"$(SRCROOT)/zbar/iphone/include/ZBarSDK",
+				);
+				INFOPLIST_FILE = "BookScan/BookScan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/zbar/iphone/build/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8E82D271301074B00385E72 /* Build configuration list for PBXProject "BookScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E82D461301074B00385E72 /* Debug */,
+				D8E82D471301074B00385E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8E82D481301074B00385E72 /* Build configuration list for PBXNativeTarget "BookScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E82D491301074B00385E72 /* Debug */,
+				D8E82D4A1301074B00385E72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8E82D241301074B00385E72 /* Project object */;
+}

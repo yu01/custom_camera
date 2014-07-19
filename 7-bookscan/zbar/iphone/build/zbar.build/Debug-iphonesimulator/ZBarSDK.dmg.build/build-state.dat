@@ -1,0 +1,116 @@
+TZBarSDK.dmg
+v7
+r1
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../COPYING
+c000000004D50CFE200000000000004FF
+t1297141730
+s1279
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/../LICENSE
+c000000004D50CFE20000000000006742
+t1297141730
+s26434
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/ChangeLog
+c000000004D50CFE20000000000000BAF
+t1297141730
+s2991
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/README
+c000000004D50CFE20000000000000745
+t1297141730
+s1861
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/ZBarSDK
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/ZBarSDK.dmg/COPYING
+t2
+s0
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/ZBarSDK.dmg/ChangeLog
+t2
+s0
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/ZBarSDK.dmg/Documentation.html
+t2
+s0
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/ZBarSDK.dmg/Examples/ReaderSample
+t2
+s0
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/ZBarSDK.dmg/Examples/readertest
+t2
+s0
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/ZBarSDK.dmg/LICENSE
+t2
+s0
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/ZBarSDK.dmg/README
+t2
+s0
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/Debug-iphonesimulator/ZBarSDK.dmg/ZBarSDK
+t2
+s0
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/ZBarSDK.dmg.build/Script-DC1A4A4D11FF5D0500BCDA30.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/ZBarSDK.dmg.build/Script-DC48C585121AC7C20047193B.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/doc/Documentation.html
+c000000004D50CFE200000000000001B0
+t1297141730
+s432
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/examples/ReaderSample
+c000000004D8FD7C40000000000000132
+t1301272516
+s306
+
+N/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/examples/readertest
+c000000004D8FD7C400000000000000EE
+t1301272516
+s238
+
+CPBXCp build/Debug-iphonesimulator/ZBarSDK.dmg/COPYING ../COPYING
+r0
+
+CPBXCp build/Debug-iphonesimulator/ZBarSDK.dmg/ChangeLog ChangeLog
+r0
+
+CPBXCp build/Debug-iphonesimulator/ZBarSDK.dmg/Documentation.html doc/Documentation.html
+r0
+
+CPBXCp build/Debug-iphonesimulator/ZBarSDK.dmg/Examples/ReaderSample examples/ReaderSample
+r0
+
+CPBXCp build/Debug-iphonesimulator/ZBarSDK.dmg/Examples/readertest examples/readertest
+r0
+
+CPBXCp build/Debug-iphonesimulator/ZBarSDK.dmg/LICENSE ../LICENSE
+r0
+
+CPBXCp build/Debug-iphonesimulator/ZBarSDK.dmg/README README
+r0
+
+CPBXCp build/Debug-iphonesimulator/ZBarSDK.dmg/ZBarSDK build/Debug-iphonesimulator/ZBarSDK
+r0
+
+CPhaseScriptExecution "Build Documentation" /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/ZBarSDK.dmg.build/Script-DC48C585121AC7C20047193B.sh
+r0
+
+CPhaseScriptExecution "Make Disk Image" /Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/7-bookscan/zbar/iphone/build/zbar.build/Debug-iphonesimulator/ZBarSDK.dmg.build/Script-DC1A4A4D11FF5D0500BCDA30.sh
+r0
+

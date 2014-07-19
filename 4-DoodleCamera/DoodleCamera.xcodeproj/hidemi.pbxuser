@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	D81F333E134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861F212FCF71500AF0A97 /* PenStyleDataSource.m */;
+		name = "PenStyleDataSource.m: 7";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 0;
+	};
+	D81F333F134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861F112FCF71500AF0A97 /* PenStyleDataSource.h */;
+		name = "PenStyleDataSource.h: 7";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 0;
+	};
+	D81F3340134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861EF12FCF13400AF0A97 /* PenColorDataSource.m */;
+		name = "PenColorDataSource.m: 7";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 1264;
+		vrLoc = 0;
+	};
+	D81F3341134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861EE12FCF13400AF0A97 /* PenColorDataSource.h */;
+		name = "PenColorDataSource.h: 7";
+		rLen = 0;
+		rLoc = 144;
+		rType = 0;
+		vrLen = 572;
+		vrLoc = 0;
+	};
+	D81F3342134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861D112FCD9D900AF0A97 /* main.m */;
+		name = "main.m: 7";
+		rLen = 0;
+		rLoc = 130;
+		rType = 0;
+		vrLen = 349;
+		vrLoc = 0;
+	};
+	D81F3343134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861EC12FCE9BA00AF0A97 /* DrawView.m */;
+		name = "DrawView.m: 7";
+		rLen = 0;
+		rLoc = 134;
+		rType = 0;
+		vrLen = 1202;
+		vrLoc = 0;
+	};
+	D81F3344134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861EB12FCE9BA00AF0A97 /* DrawView.h */;
+		name = "DrawView.h: 7";
+		rLen = 0;
+		rLoc = 134;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	D81F3345134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861DA12FCD9D900AF0A97 /* DoodleCameraViewController.m */;
+		name = "DoodleCameraViewController.m: 7";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 1154;
+		vrLoc = 0;
+	};
+	D81F3346134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861D912FCD9D900AF0A97 /* DoodleCameraViewController.h */;
+		name = "DoodleCameraViewController.h: 7";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 924;
+		vrLoc = 0;
+	};
+	D81F3347134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861D412FCD9D900AF0A97 /* DoodleCameraAppDelegate.m */;
+		name = "DoodleCameraAppDelegate.m: 7";
+		rLen = 0;
+		rLoc = 149;
+		rType = 0;
+		vrLen = 1428;
+		vrLoc = 0;
+	};
+	D81F3348134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861D312FCD9D900AF0A97 /* DoodleCameraAppDelegate.h */;
+		name = "DoodleCameraAppDelegate.h: 7";
+		rLen = 0;
+		rLoc = 149;
+		rType = 0;
+		vrLen = 531;
+		vrLoc = 0;
+	};
+	D81F3349134087070025294B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D8E861CC12FCD9D900AF0A97 /* DoodleCamera-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/hidemi/Dropbox/softbank/SAMPLES/samples/4-DoodleCamera/DoodleCamera/DoodleCamera-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D81F334A134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861E912FCDFAD00AF0A97 /* CGUtil.m */;
+		name = "CGUtil.m: 7";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 1228;
+		vrLoc = 0;
+	};
+	D81F334B134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861E812FCDFAD00AF0A97 /* CGUtil.h */;
+		name = "CGUtil.h: 7";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 842;
+		vrLoc = 0;
+	};
+	D81F334C134087070025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861E812FCDFAD00AF0A97 /* CGUtil.h */;
+		name = "CGUtil.h: 7";
+		rLen = 0;
+		rLoc = 132;
+		rType = 0;
+		vrLen = 848;
+		vrLoc = 0;
+	};
+	D84949DF130AACD4002289FC /* DoodleCamera */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DoodleCamera;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D84949ED130AACF3002289FC /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D84949EE130AACF3002289FC /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D8CB218D13405F8900E07F15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861D012FCD9D900AF0A97 /* DoodleCamera-Prefix.pch */;
+		name = "DoodleCamera-Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 326;
+		vrLoc = 0;
+	};
+	D8CB219413405F8900E07F15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D8E861CE12FCD9D900AF0A97 /* en */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	D8E861B712FCD9D800AF0A97 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D84949DF130AACD4002289FC /* DoodleCamera */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = D8E861BF12FCD9D900AF0A97 /* DoodleCamera */;
+		codeSenseManager = D84949EE130AACF3002289FC /* Code sense */;
+		executables = (
+			D84949DF130AACD4002289FC /* DoodleCamera */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1161,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322995913;
+			PBXWorkspaceStateSaveDate = 322995913;
+		};
+		perUserProjectItems = {
+			D81F333E134087070025294B /* PBXTextBookmark */ = D81F333E134087070025294B /* PBXTextBookmark */;
+			D81F333F134087070025294B /* PBXTextBookmark */ = D81F333F134087070025294B /* PBXTextBookmark */;
+			D81F3340134087070025294B /* PBXTextBookmark */ = D81F3340134087070025294B /* PBXTextBookmark */;
+			D81F3341134087070025294B /* PBXTextBookmark */ = D81F3341134087070025294B /* PBXTextBookmark */;
+			D81F3342134087070025294B /* PBXTextBookmark */ = D81F3342134087070025294B /* PBXTextBookmark */;
+			D81F3343134087070025294B /* PBXTextBookmark */ = D81F3343134087070025294B /* PBXTextBookmark */;
+			D81F3344134087070025294B /* PBXTextBookmark */ = D81F3344134087070025294B /* PBXTextBookmark */;
+			D81F3345134087070025294B /* PBXTextBookmark */ = D81F3345134087070025294B /* PBXTextBookmark */;
+			D81F3346134087070025294B /* PBXTextBookmark */ = D81F3346134087070025294B /* PBXTextBookmark */;
+			D81F3347134087070025294B /* PBXTextBookmark */ = D81F3347134087070025294B /* PBXTextBookmark */;
+			D81F3348134087070025294B /* PBXTextBookmark */ = D81F3348134087070025294B /* PBXTextBookmark */;
+			D81F3349134087070025294B /* PlistBookmark */ = D81F3349134087070025294B /* PlistBookmark */;
+			D81F334A134087070025294B /* PBXTextBookmark */ = D81F334A134087070025294B /* PBXTextBookmark */;
+			D81F334B134087070025294B /* PBXTextBookmark */ = D81F334B134087070025294B /* PBXTextBookmark */;
+			D81F334C134087070025294B /* PBXTextBookmark */ = D81F334C134087070025294B /* PBXTextBookmark */;
+			D8CB218D13405F8900E07F15 /* PBXTextBookmark */ = D8CB218D13405F8900E07F15 /* PBXTextBookmark */;
+			D8CB219413405F8900E07F15 /* PBXTextBookmark */ = D8CB219413405F8900E07F15 /* PBXTextBookmark */;
+		};
+		sourceControlManager = D84949ED130AACF3002289FC /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D8E861BF12FCD9D900AF0A97 /* DoodleCamera */ = {
+		activeExec = 0;
+		executables = (
+			D84949DF130AACD4002289FC /* DoodleCamera */,
+		);
+	};
+	D8E861CE12FCD9D900AF0A97 /* en */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 535}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	D8E861D012FCD9D900AF0A97 /* DoodleCamera-Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 535}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 326}";
+		};
+	};
+	D8E861D112FCD9D900AF0A97 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 519}}";
+			sepNavSelRange = "{130, 0}";
+			sepNavVisRange = "{0, 349}";
+		};
+	};
+	D8E861D312FCD9D900AF0A97 /* DoodleCameraAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 519}}";
+			sepNavSelRange = "{149, 0}";
+			sepNavVisRange = "{0, 531}";
+		};
+	};
+	D8E861D412FCD9D900AF0A97 /* DoodleCameraAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1951, 901}}";
+			sepNavSelRange = "{149, 0}";
+			sepNavVisRange = "{0, 1428}";
+		};
+	};
+	D8E861D912FCD9D900AF0A97 /* DoodleCameraViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 642}}";
+			sepNavSelRange = "{152, 0}";
+			sepNavVisRange = "{0, 924}";
+		};
+	};
+	D8E861DA12FCD9D900AF0A97 /* DoodleCameraViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 2966}}";
+			sepNavSelRange = "{152, 0}";
+			sepNavVisRange = "{0, 1154}";
+		};
+	};
+	D8E861E812FCDFAD00AF0A97 /* CGUtil.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 519}}";
+			sepNavSelRange = "{132, 0}";
+			sepNavVisRange = "{0, 848}";
+		};
+	};
+	D8E861E912FCDFAD00AF0A97 /* CGUtil.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 1302}}";
+			sepNavSelRange = "{132, 0}";
+			sepNavVisRange = "{0, 1228}";
+		};
+	};
+	D8E861EB12FCE9BA00AF0A97 /* DrawView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 633}}";
+			sepNavSelRange = "{134, 0}";
+			sepNavVisRange = "{0, 724}";
+		};
+	};
+	D8E861EC12FCE9BA00AF0A97 /* DrawView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 2211}}";
+			sepNavSelRange = "{134, 0}";
+			sepNavVisRange = "{0, 1202}";
+		};
+	};
+	D8E861EE12FCF13400AF0A97 /* PenColorDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 519}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 572}";
+		};
+	};
+	D8E861EF12FCF13400AF0A97 /* PenColorDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 1137}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 1264}";
+		};
+	};
+	D8E861F112FCF71500AF0A97 /* PenStyleDataSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 519}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 633}";
+		};
+	};
+	D8E861F212FCF71500AF0A97 /* PenStyleDataSource.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1339, 2141}}";
+			sepNavSelRange = "{144, 0}";
+			sepNavVisRange = "{0, 856}";
+		};
+	};
+}

@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	D81F33BF1340882A0025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D875DCD9130140A000F2F515 /* ARDetailViewController.h */;
+		name = "ARDetailViewController.h: 7";
+		rLen = 0;
+		rLoc = 149;
+		rType = 0;
+		vrLen = 551;
+		vrLoc = 0;
+	};
+	D81F33C01340882A0025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D875DCDA130140A000F2F515 /* ARDetailViewController.m */;
+		name = "ARDetailViewController.m: 7";
+		rLen = 0;
+		rLoc = 149;
+		rType = 0;
+		vrLen = 733;
+		vrLoc = 0;
+	};
+	D81F33C11340882A0025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D875DCA91301355F00F2F515 /* ARLocalSearchAppDelegate.h */;
+		name = "ARLocalSearchAppDelegate.h: 7";
+		rLen = 0;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 851;
+		vrLoc = 0;
+	};
+	D81F33C21340882A0025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D875DCAA1301355F00F2F515 /* ARLocalSearchAppDelegate.m */;
+		name = "ARLocalSearchAppDelegate.m: 7";
+		rLen = 0;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 905;
+		vrLoc = 0;
+	};
+	D81F33C31340882A0025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D875DCD613013E2500F2F515 /* LocationTag.h */;
+		name = "LocationTag.h: 7";
+		rLen = 0;
+		rLoc = 138;
+		rType = 0;
+		vrLen = 469;
+		vrLoc = 0;
+	};
+	D81F33C41340882A0025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D875DCD713013E2500F2F515 /* LocationTag.m */;
+		name = "LocationTag.m: 7";
+		rLen = 0;
+		rLoc = 138;
+		rType = 0;
+		vrLen = 720;
+		vrLoc = 0;
+	};
+	D81F33C51340882A0025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D875DCA71301355F00F2F515 /* main.m */;
+		name = "main.m: 8";
+		rLen = 0;
+		rLoc = 134;
+		rType = 0;
+		vrLen = 344;
+		vrLoc = 0;
+	};
+	D81F33C61340882A0025294B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D875DCA71301355F00F2F515 /* main.m */;
+		name = "main.m: 7";
+		rLen = 0;
+		rLoc = 131;
+		rType = 0;
+		vrLen = 350;
+		vrLoc = 0;
+	};
+	D875DC8D1301355F00F2F515 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D8CB1F461340460300E07F15 /* ARLocalSearch */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = D875DC951301355F00F2F515 /* ARLocalSearch */;
+		codeSenseManager = D8CB1F5D1340461900E07F15 /* Code sense */;
+		executables = (
+			D8CB1F461340460300E07F15 /* ARLocalSearch */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					476,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322996233;
+			PBXWorkspaceStateSaveDate = 322996233;
+		};
+		perUserProjectItems = {
+			D81F33BF1340882A0025294B /* PBXTextBookmark */ = D81F33BF1340882A0025294B /* PBXTextBookmark */;
+			D81F33C01340882A0025294B /* PBXTextBookmark */ = D81F33C01340882A0025294B /* PBXTextBookmark */;
+			D81F33C11340882A0025294B /* PBXTextBookmark */ = D81F33C11340882A0025294B /* PBXTextBookmark */;
+			D81F33C21340882A0025294B /* PBXTextBookmark */ = D81F33C21340882A0025294B /* PBXTextBookmark */;
+			D81F33C31340882A0025294B /* PBXTextBookmark */ = D81F33C31340882A0025294B /* PBXTextBookmark */;
+			D81F33C41340882A0025294B /* PBXTextBookmark */ = D81F33C41340882A0025294B /* PBXTextBookmark */;
+			D81F33C51340882A0025294B /* PBXTextBookmark */ = D81F33C51340882A0025294B /* PBXTextBookmark */;
+			D81F33C61340882A0025294B /* PBXTextBookmark */ = D81F33C61340882A0025294B /* PBXTextBookmark */;
+			D8CB1F64134046A700E07F15 /* PBXTextBookmark */ = D8CB1F64134046A700E07F15 /* PBXTextBookmark */;
+			D8CB225B1340620300E07F15 /* PlistBookmark */ = D8CB225B1340620300E07F15 /* PlistBookmark */;
+			D8CB225C1340620300E07F15 /* PBXTextBookmark */ = D8CB225C1340620300E07F15 /* PBXTextBookmark */;
+		};
+		sourceControlManager = D8CB1F5C1340461900E07F15 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D875DC951301355F00F2F515 /* ARLocalSearch */ = {
+		activeExec = 0;
+		executables = (
+			D8CB1F461340460300E07F15 /* ARLocalSearch */,
+		);
+	};
+	D875DCA41301355F00F2F515 /* en */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {654, 426}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	D875DCA61301355F00F2F515 /* ARLocalSearch-Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 414}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 328}";
+		};
+	};
+	D875DCA71301355F00F2F515 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {654, 401}}";
+			sepNavSelRange = "{131, 0}";
+			sepNavVisRange = "{0, 350}";
+		};
+	};
+	D875DCA91301355F00F2F515 /* ARLocalSearchAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 418}}";
+			sepNavSelRange = "{151, 0}";
+			sepNavVisRange = "{0, 851}";
+		};
+	};
+	D875DCAA1301355F00F2F515 /* ARLocalSearchAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {782, 2230}}";
+			sepNavSelRange = "{151, 0}";
+			sepNavVisRange = "{0, 905}";
+		};
+	};
+	D875DCC3130138E800F2F515 /* NSObject+SBJSON.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {654, 637}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1555}";
+		};
+	};
+	D875DCD613013E2500F2F515 /* LocationTag.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {656, 401}}";
+			sepNavSelRange = "{138, 0}";
+			sepNavVisRange = "{0, 469}";
+		};
+	};
+	D875DCD713013E2500F2F515 /* LocationTag.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 1082}}";
+			sepNavSelRange = "{138, 0}";
+			sepNavVisRange = "{0, 720}";
+		};
+	};
+	D875DCD9130140A000F2F515 /* ARDetailViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {654, 401}}";
+			sepNavSelRange = "{149, 0}";
+			sepNavVisRange = "{0, 551}";
+		};
+	};
+	D875DCDA130140A000F2F515 /* ARDetailViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {654, 600}}";
+			sepNavSelRange = "{149, 0}";
+			sepNavVisRange = "{0, 733}";
+		};
+	};
+	D8CB1F461340460300E07F15 /* ARLocalSearch */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ARLocalSearch;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D8CB1F5C1340461900E07F15 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D8CB1F5D1340461900E07F15 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D8CB1F64134046A700E07F15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D875DCA41301355F00F2F515 /* en */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	D8CB225B1340620300E07F15 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D875DCA21301355F00F2F515 /* ARLocalSearch-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/hidemi/Dropbox/softbank/SAMPLES/set-complete/8-arlocalsearch/ARLocalSearch/ARLocalSearch-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D8CB225C1340620300E07F15 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D875DCA61301355F00F2F515 /* ARLocalSearch-Prefix.pch */;
+		name = "ARLocalSearch-Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 0;
+	};
+}

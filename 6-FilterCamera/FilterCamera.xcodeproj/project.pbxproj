@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D819547F12FFBCA700E4217E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D819547E12FFBCA700E4217E /* UIKit.framework */; };
+		D819548112FFBCA700E4217E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D819548012FFBCA700E4217E /* Foundation.framework */; };
+		D819548312FFBCA700E4217E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D819548212FFBCA700E4217E /* CoreGraphics.framework */; };
+		D819548912FFBCA700E4217E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D819548712FFBCA700E4217E /* InfoPlist.strings */; };
+		D819548C12FFBCA700E4217E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D819548B12FFBCA700E4217E /* main.m */; };
+		D819548F12FFBCA700E4217E /* FilterCameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D819548E12FFBCA700E4217E /* FilterCameraAppDelegate.m */; };
+		D819549212FFBCA700E4217E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D819549012FFBCA700E4217E /* MainWindow.xib */; };
+		D819549512FFBCA700E4217E /* FilterCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D819549412FFBCA700E4217E /* FilterCameraViewController.m */; };
+		D819549812FFBCA700E4217E /* FilterCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D819549612FFBCA700E4217E /* FilterCameraViewController.xib */; };
+		D81954A112FFBE7300E4217E /* libcv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D819549F12FFBE7300E4217E /* libcv.a */; };
+		D81954A212FFBE7300E4217E /* libcxcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D81954A012FFBE7300E4217E /* libcxcore.a */; };
+		D81954A612FFBEC600E4217E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81954A312FFBEC600E4217E /* AVFoundation.framework */; };
+		D81954A712FFBEC600E4217E /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81954A412FFBEC600E4217E /* CoreMedia.framework */; };
+		D81954A812FFBEC600E4217E /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D81954A512FFBEC600E4217E /* CoreVideo.framework */; };
+		D81954BB12FFD13600E4217E /* ImageFilterBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D81954BA12FFD13600E4217E /* ImageFilterBase.m */; };
+		D81954BE12FFD41C00E4217E /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D81954BD12FFD41C00E4217E /* SettingViewController.m */; };
+		D81954C112FFDA9A00E4217E /* BrightnessFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D81954C012FFDA9A00E4217E /* BrightnessFilter.m */; };
+		D81954C412FFDC4500E4217E /* GrayScaleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D81954C312FFDC4400E4217E /* GrayScaleFilter.m */; };
+		D81954C712FFDD0400E4217E /* SepiaFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D81954C612FFDD0300E4217E /* SepiaFilter.m */; };
+		D81954CA1300E81A00E4217E /* MosaicFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D81954C91300E81800E4217E /* MosaicFilter.m */; };
+		D81954CD1300E9FE00E4217E /* FishEyeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D81954CC1300E9FA00E4217E /* FishEyeFilter.m */; };
+		D868E799130B480B00290523 /* MultiMonitorFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D868E798130B480B00290523 /* MultiMonitorFilter.m */; };
+		D8E82CEF1300EF1300385E72 /* GaussianFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E82CEE1300EF1300385E72 /* GaussianFilter.m */; };
+		D8E82CF31300F01D00385E72 /* EdgeFindFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E82CF21300F01D00385E72 /* EdgeFindFilter.m */; };
+		D8E82CF61300F63200385E72 /* FaceFindFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E82CF51300F63200385E72 /* FaceFindFilter.m */; };
+		D8E82CF81300F6E100385E72 /* haarcascade_frontalface_default.xml in Resources */ = {isa = PBXBuildFile; fileRef = D8E82CF71300F6E100385E72 /* haarcascade_frontalface_default.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D819547A12FFBCA700E4217E /* FilterCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D819547E12FFBCA700E4217E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D819548012FFBCA700E4217E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D819548212FFBCA700E4217E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D819548612FFBCA700E4217E /* FilterCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FilterCamera-Info.plist"; sourceTree = "<group>"; };
+		D819548812FFBCA700E4217E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D819548A12FFBCA700E4217E /* FilterCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FilterCamera-Prefix.pch"; sourceTree = "<group>"; };
+		D819548B12FFBCA700E4217E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D819548D12FFBCA700E4217E /* FilterCameraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterCameraAppDelegate.h; sourceTree = "<group>"; };
+		D819548E12FFBCA700E4217E /* FilterCameraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterCameraAppDelegate.m; sourceTree = "<group>"; };
+		D819549112FFBCA700E4217E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D819549312FFBCA700E4217E /* FilterCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterCameraViewController.h; sourceTree = "<group>"; };
+		D819549412FFBCA700E4217E /* FilterCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilterCameraViewController.m; sourceTree = "<group>"; };
+		D819549712FFBCA700E4217E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FilterCameraViewController.xib; sourceTree = "<group>"; };
+		D819549F12FFBE7300E4217E /* libcv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcv.a; path = opencv_lib/lib/libcv.a; sourceTree = SOURCE_ROOT; };
+		D81954A012FFBE7300E4217E /* libcxcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcxcore.a; path = opencv_lib/lib/libcxcore.a; sourceTree = SOURCE_ROOT; };
+		D81954A312FFBEC600E4217E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D81954A412FFBEC600E4217E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D81954A512FFBEC600E4217E /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D81954B912FFD13600E4217E /* ImageFilterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilterBase.h; sourceTree = "<group>"; };
+		D81954BA12FFD13600E4217E /* ImageFilterBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilterBase.m; sourceTree = "<group>"; };
+		D81954BC12FFD41C00E4217E /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		D81954BD12FFD41C00E4217E /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		D81954BF12FFDA9900E4217E /* BrightnessFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrightnessFilter.h; sourceTree = "<group>"; };
+		D81954C012FFDA9A00E4217E /* BrightnessFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrightnessFilter.m; sourceTree = "<group>"; };
+		D81954C212FFDC4300E4217E /* GrayScaleFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrayScaleFilter.h; sourceTree = "<group>"; };
+		D81954C312FFDC4400E4217E /* GrayScaleFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrayScaleFilter.m; sourceTree = "<group>"; };
+		D81954C512FFDD0200E4217E /* SepiaFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SepiaFilter.h; sourceTree = "<group>"; };
+		D81954C612FFDD0300E4217E /* SepiaFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SepiaFilter.m; sourceTree = "<group>"; };
+		D81954C81300E81700E4217E /* MosaicFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MosaicFilter.h; sourceTree = "<group>"; };
+		D81954C91300E81800E4217E /* MosaicFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MosaicFilter.m; sourceTree = "<group>"; };
+		D81954CB1300E9F900E4217E /* FishEyeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FishEyeFilter.h; sourceTree = "<group>"; };
+		D81954CC1300E9FA00E4217E /* FishEyeFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FishEyeFilter.m; sourceTree = "<group>"; };
+		D868E797130B480B00290523 /* MultiMonitorFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiMonitorFilter.h; sourceTree = "<group>"; };
+		D868E798130B480B00290523 /* MultiMonitorFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiMonitorFilter.m; sourceTree = "<group>"; };
+		D8E82CED1300EF1300385E72 /* GaussianFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaussianFilter.h; sourceTree = "<group>"; };
+		D8E82CEE1300EF1300385E72 /* GaussianFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaussianFilter.m; sourceTree = "<group>"; };
+		D8E82CF11300F01C00385E72 /* EdgeFindFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeFindFilter.h; sourceTree = "<group>"; };
+		D8E82CF21300F01D00385E72 /* EdgeFindFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeFindFilter.m; sourceTree = "<group>"; };
+		D8E82CF41300F63100385E72 /* FaceFindFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceFindFilter.h; sourceTree = "<group>"; };
+		D8E82CF51300F63200385E72 /* FaceFindFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceFindFilter.m; sourceTree = "<group>"; };
+		D8E82CF71300F6E100385E72 /* haarcascade_frontalface_default.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = haarcascade_frontalface_default.xml; path = opencv_lib/data/haarcascades/haarcascade_frontalface_default.xml; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D819547712FFBCA700E4217E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D81954A612FFBEC600E4217E /* AVFoundation.framework in Frameworks */,
+				D81954A712FFBEC600E4217E /* CoreMedia.framework in Frameworks */,
+				D81954A812FFBEC600E4217E /* CoreVideo.framework in Frameworks */,
+				D819547F12FFBCA700E4217E /* UIKit.framework in Frameworks */,
+				D819548112FFBCA700E4217E /* Foundation.framework in Frameworks */,
+				D819548312FFBCA700E4217E /* CoreGraphics.framework in Frameworks */,
+				D81954A112FFBE7300E4217E /* libcv.a in Frameworks */,
+				D81954A212FFBE7300E4217E /* libcxcore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D819546F12FFBCA700E4217E = {
+			isa = PBXGroup;
+			children = (
+				D819548412FFBCA700E4217E /* FilterCamera */,
+				D819547D12FFBCA700E4217E /* Frameworks */,
+				D819547B12FFBCA700E4217E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D819547B12FFBCA700E4217E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D819547A12FFBCA700E4217E /* FilterCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D819547D12FFBCA700E4217E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D81954A312FFBEC600E4217E /* AVFoundation.framework */,
+				D81954A412FFBEC600E4217E /* CoreMedia.framework */,
+				D81954A512FFBEC600E4217E /* CoreVideo.framework */,
+				D819547E12FFBCA700E4217E /* UIKit.framework */,
+				D819548012FFBCA700E4217E /* Foundation.framework */,
+				D819548212FFBCA700E4217E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D819548412FFBCA700E4217E /* FilterCamera */ = {
+			isa = PBXGroup;
+			children = (
+				D8E82CF71300F6E100385E72 /* haarcascade_frontalface_default.xml */,
+				D819549E12FFBE5A00E4217E /* OpenCV */,
+				D819548D12FFBCA700E4217E /* FilterCameraAppDelegate.h */,
+				D819548E12FFBCA700E4217E /* FilterCameraAppDelegate.m */,
+				D819549012FFBCA700E4217E /* MainWindow.xib */,
+				D819549312FFBCA700E4217E /* FilterCameraViewController.h */,
+				D819549412FFBCA700E4217E /* FilterCameraViewController.m */,
+				D819549612FFBCA700E4217E /* FilterCameraViewController.xib */,
+				D819548512FFBCA700E4217E /* Supporting Files */,
+				D81954B912FFD13600E4217E /* ImageFilterBase.h */,
+				D81954BA12FFD13600E4217E /* ImageFilterBase.m */,
+				D81954BC12FFD41C00E4217E /* SettingViewController.h */,
+				D81954BD12FFD41C00E4217E /* SettingViewController.m */,
+				D81954BF12FFDA9900E4217E /* BrightnessFilter.h */,
+				D81954C012FFDA9A00E4217E /* BrightnessFilter.m */,
+				D81954C212FFDC4300E4217E /* GrayScaleFilter.h */,
+				D81954C312FFDC4400E4217E /* GrayScaleFilter.m */,
+				D81954C512FFDD0200E4217E /* SepiaFilter.h */,
+				D81954C612FFDD0300E4217E /* SepiaFilter.m */,
+				D81954C81300E81700E4217E /* MosaicFilter.h */,
+				D81954C91300E81800E4217E /* MosaicFilter.m */,
+				D81954CB1300E9F900E4217E /* FishEyeFilter.h */,
+				D81954CC1300E9FA00E4217E /* FishEyeFilter.m */,
+				D8E82CED1300EF1300385E72 /* GaussianFilter.h */,
+				D8E82CEE1300EF1300385E72 /* GaussianFilter.m */,
+				D8E82CF11300F01C00385E72 /* EdgeFindFilter.h */,
+				D8E82CF21300F01D00385E72 /* EdgeFindFilter.m */,
+				D8E82CF41300F63100385E72 /* FaceFindFilter.h */,
+				D8E82CF51300F63200385E72 /* FaceFindFilter.m */,
+				D868E797130B480B00290523 /* MultiMonitorFilter.h */,
+				D868E798130B480B00290523 /* MultiMonitorFilter.m */,
+			);
+			path = FilterCamera;
+			sourceTree = "<group>";
+		};
+		D819548512FFBCA700E4217E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D819548612FFBCA700E4217E /* FilterCamera-Info.plist */,
+				D819548712FFBCA700E4217E /* InfoPlist.strings */,
+				D819548A12FFBCA700E4217E /* FilterCamera-Prefix.pch */,
+				D819548B12FFBCA700E4217E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D819549E12FFBE5A00E4217E /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				D819549F12FFBE7300E4217E /* libcv.a */,
+				D81954A012FFBE7300E4217E /* libcxcore.a */,
+			);
+			name = OpenCV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D819547912FFBCA700E4217E /* FilterCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D819549B12FFBCA700E4217E /* Build configuration list for PBXNativeTarget "FilterCamera" */;
+			buildPhases = (
+				D819547612FFBCA700E4217E /* Sources */,
+				D819547712FFBCA700E4217E /* Frameworks */,
+				D819547812FFBCA700E4217E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilterCamera;
+			productName = FilterCamera;
+			productReference = D819547A12FFBCA700E4217E /* FilterCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D819547112FFBCA700E4217E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D819547412FFBCA700E4217E /* Build configuration list for PBXProject "FilterCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D819546F12FFBCA700E4217E;
+			productRefGroup = D819547B12FFBCA700E4217E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D819547912FFBCA700E4217E /* FilterCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D819547812FFBCA700E4217E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D819548912FFBCA700E4217E /* InfoPlist.strings in Resources */,
+				D819549212FFBCA700E4217E /* MainWindow.xib in Resources */,
+				D819549812FFBCA700E4217E /* FilterCameraViewController.xib in Resources */,
+				D8E82CF81300F6E100385E72 /* haarcascade_frontalface_default.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D819547612FFBCA700E4217E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D819548C12FFBCA700E4217E /* main.m in Sources */,
+				D819548F12FFBCA700E4217E /* FilterCameraAppDelegate.m in Sources */,
+				D819549512FFBCA700E4217E /* FilterCameraViewController.m in Sources */,
+				D81954BB12FFD13600E4217E /* ImageFilterBase.m in Sources */,
+				D81954BE12FFD41C00E4217E /* SettingViewController.m in Sources */,
+				D81954C112FFDA9A00E4217E /* BrightnessFilter.m in Sources */,
+				D81954C412FFDC4500E4217E /* GrayScaleFilter.m in Sources */,
+				D81954C712FFDD0400E4217E /* SepiaFilter.m in Sources */,
+				D81954CA1300E81A00E4217E /* MosaicFilter.m in Sources */,
+				D81954CD1300E9FE00E4217E /* FishEyeFilter.m in Sources */,
+				D8E82CEF1300EF1300385E72 /* GaussianFilter.m in Sources */,
+				D8E82CF31300F01D00385E72 /* EdgeFindFilter.m in Sources */,
+				D8E82CF61300F63200385E72 /* FaceFindFilter.m in Sources */,
+				D868E799130B480B00290523 /* MultiMonitorFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D819548712FFBCA700E4217E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D819548812FFBCA700E4217E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D819549012FFBCA700E4217E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D819549112FFBCA700E4217E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D819549612FFBCA700E4217E /* FilterCameraViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D819549712FFBCA700E4217E /* en */,
+			);
+			name = FilterCameraViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D819549912FFBCA700E4217E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D819549A12FFBCA700E4217E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D819549C12FFBCA700E4217E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterCamera/FilterCamera-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/opencv_lib/include";
+				INFOPLIST_FILE = "FilterCamera/FilterCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/opencv_lib/lib";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D819549D12FFBCA700E4217E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilterCamera/FilterCamera-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/opencv_lib/include";
+				INFOPLIST_FILE = "FilterCamera/FilterCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/opencv_lib/lib";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-lz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D819547412FFBCA700E4217E /* Build configuration list for PBXProject "FilterCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D819549912FFBCA700E4217E /* Debug */,
+				D819549A12FFBCA700E4217E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D819549B12FFBCA700E4217E /* Build configuration list for PBXNativeTarget "FilterCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D819549C12FFBCA700E4217E /* Debug */,
+				D819549D12FFBCA700E4217E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D819547112FFBCA700E4217E /* Project object */;
+}

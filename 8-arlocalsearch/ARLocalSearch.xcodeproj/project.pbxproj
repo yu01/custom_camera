@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D875DC9B1301355F00F2F515 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D875DC9A1301355F00F2F515 /* UIKit.framework */; };
+		D875DC9D1301355F00F2F515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D875DC9C1301355F00F2F515 /* Foundation.framework */; };
+		D875DC9F1301355F00F2F515 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D875DC9E1301355F00F2F515 /* CoreGraphics.framework */; };
+		D875DCA51301355F00F2F515 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D875DCA31301355F00F2F515 /* InfoPlist.strings */; };
+		D875DCA81301355F00F2F515 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCA71301355F00F2F515 /* main.m */; };
+		D875DCAB1301355F00F2F515 /* ARLocalSearchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCAA1301355F00F2F515 /* ARLocalSearchAppDelegate.m */; };
+		D875DCAE1301355F00F2F515 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D875DCAC1301355F00F2F515 /* MainWindow.xib */; };
+		D875DCBD1301375200F2F515 /* ARCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCB61301375200F2F515 /* ARCoordinate.m */; };
+		D875DCBE1301375200F2F515 /* ARGeoCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCB81301375200F2F515 /* ARGeoCoordinate.m */; };
+		D875DCBF1301375200F2F515 /* ARGeoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCBA1301375200F2F515 /* ARGeoViewController.m */; };
+		D875DCC01301375200F2F515 /* ARViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCBC1301375200F2F515 /* ARViewController.m */; };
+		D875DCCD130138E800F2F515 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCC4130138E800F2F515 /* NSObject+SBJSON.m */; };
+		D875DCCE130138E800F2F515 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCC6130138E800F2F515 /* NSString+SBJSON.m */; };
+		D875DCCF130138E800F2F515 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCC8130138E800F2F515 /* SBJsonBase.m */; };
+		D875DCD0130138E800F2F515 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCCA130138E800F2F515 /* SBJsonParser.m */; };
+		D875DCD1130138E800F2F515 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCCC130138E800F2F515 /* SBJsonWriter.m */; };
+		D875DCD41301394200F2F515 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D875DCD21301394200F2F515 /* CoreLocation.framework */; };
+		D875DCD51301394200F2F515 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D875DCD31301394200F2F515 /* QuartzCore.framework */; };
+		D875DCD813013E2500F2F515 /* LocationTag.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCD713013E2500F2F515 /* LocationTag.m */; };
+		D875DCDC130140A000F2F515 /* ARDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D875DCDA130140A000F2F515 /* ARDetailViewController.m */; };
+		D875DCDD130140A000F2F515 /* ARDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D875DCDB130140A000F2F515 /* ARDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D875DC961301355F00F2F515 /* ARLocalSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARLocalSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D875DC9A1301355F00F2F515 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D875DC9C1301355F00F2F515 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D875DC9E1301355F00F2F515 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D875DCA21301355F00F2F515 /* ARLocalSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARLocalSearch-Info.plist"; sourceTree = "<group>"; };
+		D875DCA41301355F00F2F515 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D875DCA61301355F00F2F515 /* ARLocalSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARLocalSearch-Prefix.pch"; sourceTree = "<group>"; };
+		D875DCA71301355F00F2F515 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D875DCA91301355F00F2F515 /* ARLocalSearchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARLocalSearchAppDelegate.h; sourceTree = "<group>"; };
+		D875DCAA1301355F00F2F515 /* ARLocalSearchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARLocalSearchAppDelegate.m; sourceTree = "<group>"; };
+		D875DCAD1301355F00F2F515 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D875DCB51301375200F2F515 /* ARCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARCoordinate.h; path = iphonearkit/ARKitDemo/Classes/ARCoordinate.h; sourceTree = "<group>"; };
+		D875DCB61301375200F2F515 /* ARCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARCoordinate.m; path = iphonearkit/ARKitDemo/Classes/ARCoordinate.m; sourceTree = "<group>"; };
+		D875DCB71301375200F2F515 /* ARGeoCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARGeoCoordinate.h; path = iphonearkit/ARKitDemo/Classes/ARGeoCoordinate.h; sourceTree = "<group>"; };
+		D875DCB81301375200F2F515 /* ARGeoCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARGeoCoordinate.m; path = iphonearkit/ARKitDemo/Classes/ARGeoCoordinate.m; sourceTree = "<group>"; };
+		D875DCB91301375200F2F515 /* ARGeoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARGeoViewController.h; path = iphonearkit/ARKitDemo/Classes/ARGeoViewController.h; sourceTree = "<group>"; };
+		D875DCBA1301375200F2F515 /* ARGeoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARGeoViewController.m; path = iphonearkit/ARKitDemo/Classes/ARGeoViewController.m; sourceTree = "<group>"; };
+		D875DCBB1301375200F2F515 /* ARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARViewController.h; path = iphonearkit/ARKitDemo/Classes/ARViewController.h; sourceTree = "<group>"; };
+		D875DCBC1301375200F2F515 /* ARViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARViewController.m; path = iphonearkit/ARKitDemo/Classes/ARViewController.m; sourceTree = "<group>"; };
+		D875DCC2130138E800F2F515 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSON.h; path = "JSON v2.3.2 (iOS)/Classes/JSON.h"; sourceTree = "<group>"; };
+		D875DCC3130138E800F2F515 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SBJSON.h"; path = "JSON v2.3.2 (iOS)/Classes/NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		D875DCC4130138E800F2F515 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SBJSON.m"; path = "JSON v2.3.2 (iOS)/Classes/NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		D875DCC5130138E800F2F515 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SBJSON.h"; path = "JSON v2.3.2 (iOS)/Classes/NSString+SBJSON.h"; sourceTree = "<group>"; };
+		D875DCC6130138E800F2F515 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SBJSON.m"; path = "JSON v2.3.2 (iOS)/Classes/NSString+SBJSON.m"; sourceTree = "<group>"; };
+		D875DCC7130138E800F2F515 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonBase.h; path = "JSON v2.3.2 (iOS)/Classes/SBJsonBase.h"; sourceTree = "<group>"; };
+		D875DCC8130138E800F2F515 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonBase.m; path = "JSON v2.3.2 (iOS)/Classes/SBJsonBase.m"; sourceTree = "<group>"; };
+		D875DCC9130138E800F2F515 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonParser.h; path = "JSON v2.3.2 (iOS)/Classes/SBJsonParser.h"; sourceTree = "<group>"; };
+		D875DCCA130138E800F2F515 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonParser.m; path = "JSON v2.3.2 (iOS)/Classes/SBJsonParser.m"; sourceTree = "<group>"; };
+		D875DCCB130138E800F2F515 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SBJsonWriter.h; path = "JSON v2.3.2 (iOS)/Classes/SBJsonWriter.h"; sourceTree = "<group>"; };
+		D875DCCC130138E800F2F515 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SBJsonWriter.m; path = "JSON v2.3.2 (iOS)/Classes/SBJsonWriter.m"; sourceTree = "<group>"; };
+		D875DCD21301394200F2F515 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D875DCD31301394200F2F515 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D875DCD613013E2500F2F515 /* LocationTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTag.h; sourceTree = "<group>"; };
+		D875DCD713013E2500F2F515 /* LocationTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTag.m; sourceTree = "<group>"; };
+		D875DCD9130140A000F2F515 /* ARDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDetailViewController.h; sourceTree = "<group>"; };
+		D875DCDA130140A000F2F515 /* ARDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDetailViewController.m; sourceTree = "<group>"; };
+		D875DCDB130140A000F2F515 /* ARDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D875DC931301355F00F2F515 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D875DCD41301394200F2F515 /* CoreLocation.framework in Frameworks */,
+				D875DCD51301394200F2F515 /* QuartzCore.framework in Frameworks */,
+				D875DC9B1301355F00F2F515 /* UIKit.framework in Frameworks */,
+				D875DC9D1301355F00F2F515 /* Foundation.framework in Frameworks */,
+				D875DC9F1301355F00F2F515 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D875DC8B1301355F00F2F515 = {
+			isa = PBXGroup;
+			children = (
+				D875DCC11301387700F2F515 /* JSON Framework */,
+				D875DCB41301371A00F2F515 /* iPhone ARKit */,
+				D875DCA01301355F00F2F515 /* ARLocalSearch */,
+				D875DC991301355F00F2F515 /* Frameworks */,
+				D875DC971301355F00F2F515 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D875DC971301355F00F2F515 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D875DC961301355F00F2F515 /* ARLocalSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D875DC991301355F00F2F515 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D875DCD21301394200F2F515 /* CoreLocation.framework */,
+				D875DCD31301394200F2F515 /* QuartzCore.framework */,
+				D875DC9A1301355F00F2F515 /* UIKit.framework */,
+				D875DC9C1301355F00F2F515 /* Foundation.framework */,
+				D875DC9E1301355F00F2F515 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D875DCA01301355F00F2F515 /* ARLocalSearch */ = {
+			isa = PBXGroup;
+			children = (
+				D875DCA91301355F00F2F515 /* ARLocalSearchAppDelegate.h */,
+				D875DCAA1301355F00F2F515 /* ARLocalSearchAppDelegate.m */,
+				D875DCAC1301355F00F2F515 /* MainWindow.xib */,
+				D875DCA11301355F00F2F515 /* Supporting Files */,
+				D875DCD613013E2500F2F515 /* LocationTag.h */,
+				D875DCD713013E2500F2F515 /* LocationTag.m */,
+				D875DCD9130140A000F2F515 /* ARDetailViewController.h */,
+				D875DCDA130140A000F2F515 /* ARDetailViewController.m */,
+				D875DCDB130140A000F2F515 /* ARDetailViewController.xib */,
+			);
+			path = ARLocalSearch;
+			sourceTree = "<group>";
+		};
+		D875DCA11301355F00F2F515 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D875DCA21301355F00F2F515 /* ARLocalSearch-Info.plist */,
+				D875DCA31301355F00F2F515 /* InfoPlist.strings */,
+				D875DCA61301355F00F2F515 /* ARLocalSearch-Prefix.pch */,
+				D875DCA71301355F00F2F515 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D875DCB41301371A00F2F515 /* iPhone ARKit */ = {
+			isa = PBXGroup;
+			children = (
+				D875DCB51301375200F2F515 /* ARCoordinate.h */,
+				D875DCB61301375200F2F515 /* ARCoordinate.m */,
+				D875DCB71301375200F2F515 /* ARGeoCoordinate.h */,
+				D875DCB81301375200F2F515 /* ARGeoCoordinate.m */,
+				D875DCB91301375200F2F515 /* ARGeoViewController.h */,
+				D875DCBA1301375200F2F515 /* ARGeoViewController.m */,
+				D875DCBB1301375200F2F515 /* ARViewController.h */,
+				D875DCBC1301375200F2F515 /* ARViewController.m */,
+			);
+			name = "iPhone ARKit";
+			sourceTree = "<group>";
+		};
+		D875DCC11301387700F2F515 /* JSON Framework */ = {
+			isa = PBXGroup;
+			children = (
+				D875DCC2130138E800F2F515 /* JSON.h */,
+				D875DCC3130138E800F2F515 /* NSObject+SBJSON.h */,
+				D875DCC4130138E800F2F515 /* NSObject+SBJSON.m */,
+				D875DCC5130138E800F2F515 /* NSString+SBJSON.h */,
+				D875DCC6130138E800F2F515 /* NSString+SBJSON.m */,
+				D875DCC7130138E800F2F515 /* SBJsonBase.h */,
+				D875DCC8130138E800F2F515 /* SBJsonBase.m */,
+				D875DCC9130138E800F2F515 /* SBJsonParser.h */,
+				D875DCCA130138E800F2F515 /* SBJsonParser.m */,
+				D875DCCB130138E800F2F515 /* SBJsonWriter.h */,
+				D875DCCC130138E800F2F515 /* SBJsonWriter.m */,
+			);
+			name = "JSON Framework";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D875DC951301355F00F2F515 /* ARLocalSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D875DCB11301355F00F2F515 /* Build configuration list for PBXNativeTarget "ARLocalSearch" */;
+			buildPhases = (
+				D875DC921301355F00F2F515 /* Sources */,
+				D875DC931301355F00F2F515 /* Frameworks */,
+				D875DC941301355F00F2F515 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARLocalSearch;
+			productName = ARLocalSearch;
+			productReference = D875DC961301355F00F2F515 /* ARLocalSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D875DC8D1301355F00F2F515 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D875DC901301355F00F2F515 /* Build configuration list for PBXProject "ARLocalSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D875DC8B1301355F00F2F515;
+			productRefGroup = D875DC971301355F00F2F515 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D875DC951301355F00F2F515 /* ARLocalSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D875DC941301355F00F2F515 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D875DCA51301355F00F2F515 /* InfoPlist.strings in Resources */,
+				D875DCAE1301355F00F2F515 /* MainWindow.xib in Resources */,
+				D875DCDD130140A000F2F515 /* ARDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D875DC921301355F00F2F515 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D875DCA81301355F00F2F515 /* main.m in Sources */,
+				D875DCAB1301355F00F2F515 /* ARLocalSearchAppDelegate.m in Sources */,
+				D875DCBD1301375200F2F515 /* ARCoordinate.m in Sources */,
+				D875DCBE1301375200F2F515 /* ARGeoCoordinate.m in Sources */,
+				D875DCBF1301375200F2F515 /* ARGeoViewController.m in Sources */,
+				D875DCC01301375200F2F515 /* ARViewController.m in Sources */,
+				D875DCCD130138E800F2F515 /* NSObject+SBJSON.m in Sources */,
+				D875DCCE130138E800F2F515 /* NSString+SBJSON.m in Sources */,
+				D875DCCF130138E800F2F515 /* SBJsonBase.m in Sources */,
+				D875DCD0130138E800F2F515 /* SBJsonParser.m in Sources */,
+				D875DCD1130138E800F2F515 /* SBJsonWriter.m in Sources */,
+				D875DCD813013E2500F2F515 /* LocationTag.m in Sources */,
+				D875DCDC130140A000F2F515 /* ARDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D875DCA31301355F00F2F515 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D875DCA41301355F00F2F515 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D875DCAC1301355F00F2F515 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D875DCAD1301355F00F2F515 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D875DCAF1301355F00F2F515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D875DCB01301355F00F2F515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D875DCB21301355F00F2F515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARLocalSearch/ARLocalSearch-Prefix.pch";
+				INFOPLIST_FILE = "ARLocalSearch/ARLocalSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D875DCB31301355F00F2F515 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARLocalSearch/ARLocalSearch-Prefix.pch";
+				INFOPLIST_FILE = "ARLocalSearch/ARLocalSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D875DC901301355F00F2F515 /* Build configuration list for PBXProject "ARLocalSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D875DCAF1301355F00F2F515 /* Debug */,
+				D875DCB01301355F00F2F515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D875DCB11301355F00F2F515 /* Build configuration list for PBXNativeTarget "ARLocalSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D875DCB21301355F00F2F515 /* Debug */,
+				D875DCB31301355F00F2F515 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D875DC8D1301355F00F2F515 /* Project object */;
+}

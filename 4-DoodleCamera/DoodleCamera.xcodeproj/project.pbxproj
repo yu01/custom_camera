@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8E861C512FCD9D900AF0A97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E861C412FCD9D900AF0A97 /* UIKit.framework */; };
+		D8E861C712FCD9D900AF0A97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E861C612FCD9D900AF0A97 /* Foundation.framework */; };
+		D8E861C912FCD9D900AF0A97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E861C812FCD9D900AF0A97 /* CoreGraphics.framework */; };
+		D8E861CF12FCD9D900AF0A97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8E861CD12FCD9D900AF0A97 /* InfoPlist.strings */; };
+		D8E861D212FCD9D900AF0A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E861D112FCD9D900AF0A97 /* main.m */; };
+		D8E861D512FCD9D900AF0A97 /* DoodleCameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E861D412FCD9D900AF0A97 /* DoodleCameraAppDelegate.m */; };
+		D8E861D812FCD9D900AF0A97 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8E861D612FCD9D900AF0A97 /* MainWindow.xib */; };
+		D8E861DB12FCD9D900AF0A97 /* DoodleCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E861DA12FCD9D900AF0A97 /* DoodleCameraViewController.m */; };
+		D8E861DE12FCD9D900AF0A97 /* DoodleCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8E861DC12FCD9D900AF0A97 /* DoodleCameraViewController.xib */; };
+		D8E861E612FCDB1D00AF0A97 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E861E412FCDB1D00AF0A97 /* AVFoundation.framework */; };
+		D8E861E712FCDB1D00AF0A97 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8E861E512FCDB1D00AF0A97 /* QuartzCore.framework */; };
+		D8E861EA12FCDFAD00AF0A97 /* CGUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E861E912FCDFAD00AF0A97 /* CGUtil.m */; };
+		D8E861ED12FCE9BA00AF0A97 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E861EC12FCE9BA00AF0A97 /* DrawView.m */; };
+		D8E861F012FCF13400AF0A97 /* PenColorDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E861EF12FCF13400AF0A97 /* PenColorDataSource.m */; };
+		D8E861F312FCF71500AF0A97 /* PenStyleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E861F212FCF71500AF0A97 /* PenStyleDataSource.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8E861C012FCD9D900AF0A97 /* DoodleCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoodleCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E861C412FCD9D900AF0A97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8E861C612FCD9D900AF0A97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8E861C812FCD9D900AF0A97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8E861CC12FCD9D900AF0A97 /* DoodleCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoodleCamera-Info.plist"; sourceTree = "<group>"; };
+		D8E861CE12FCD9D900AF0A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8E861D012FCD9D900AF0A97 /* DoodleCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoodleCamera-Prefix.pch"; sourceTree = "<group>"; };
+		D8E861D112FCD9D900AF0A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8E861D312FCD9D900AF0A97 /* DoodleCameraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoodleCameraAppDelegate.h; sourceTree = "<group>"; };
+		D8E861D412FCD9D900AF0A97 /* DoodleCameraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoodleCameraAppDelegate.m; sourceTree = "<group>"; };
+		D8E861D712FCD9D900AF0A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D8E861D912FCD9D900AF0A97 /* DoodleCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoodleCameraViewController.h; sourceTree = "<group>"; };
+		D8E861DA12FCD9D900AF0A97 /* DoodleCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoodleCameraViewController.m; sourceTree = "<group>"; };
+		D8E861DD12FCD9D900AF0A97 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DoodleCameraViewController.xib; sourceTree = "<group>"; };
+		D8E861E412FCDB1D00AF0A97 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D8E861E512FCDB1D00AF0A97 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D8E861E812FCDFAD00AF0A97 /* CGUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGUtil.h; sourceTree = "<group>"; };
+		D8E861E912FCDFAD00AF0A97 /* CGUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGUtil.m; sourceTree = "<group>"; };
+		D8E861EB12FCE9BA00AF0A97 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		D8E861EC12FCE9BA00AF0A97 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		D8E861EE12FCF13400AF0A97 /* PenColorDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenColorDataSource.h; sourceTree = "<group>"; };
+		D8E861EF12FCF13400AF0A97 /* PenColorDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenColorDataSource.m; sourceTree = "<group>"; };
+		D8E861F112FCF71500AF0A97 /* PenStyleDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PenStyleDataSource.h; sourceTree = "<group>"; };
+		D8E861F212FCF71500AF0A97 /* PenStyleDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PenStyleDataSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8E861BD12FCD9D900AF0A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E861E612FCDB1D00AF0A97 /* AVFoundation.framework in Frameworks */,
+				D8E861E712FCDB1D00AF0A97 /* QuartzCore.framework in Frameworks */,
+				D8E861C512FCD9D900AF0A97 /* UIKit.framework in Frameworks */,
+				D8E861C712FCD9D900AF0A97 /* Foundation.framework in Frameworks */,
+				D8E861C912FCD9D900AF0A97 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8E861B512FCD9D800AF0A97 = {
+			isa = PBXGroup;
+			children = (
+				D8E861CA12FCD9D900AF0A97 /* DoodleCamera */,
+				D8E861C312FCD9D900AF0A97 /* Frameworks */,
+				D8E861C112FCD9D900AF0A97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8E861C112FCD9D900AF0A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8E861C012FCD9D900AF0A97 /* DoodleCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8E861C312FCD9D900AF0A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8E861E412FCDB1D00AF0A97 /* AVFoundation.framework */,
+				D8E861E512FCDB1D00AF0A97 /* QuartzCore.framework */,
+				D8E861C412FCD9D900AF0A97 /* UIKit.framework */,
+				D8E861C612FCD9D900AF0A97 /* Foundation.framework */,
+				D8E861C812FCD9D900AF0A97 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8E861CA12FCD9D900AF0A97 /* DoodleCamera */ = {
+			isa = PBXGroup;
+			children = (
+				D8E861D312FCD9D900AF0A97 /* DoodleCameraAppDelegate.h */,
+				D8E861D412FCD9D900AF0A97 /* DoodleCameraAppDelegate.m */,
+				D8E861D612FCD9D900AF0A97 /* MainWindow.xib */,
+				D8E861D912FCD9D900AF0A97 /* DoodleCameraViewController.h */,
+				D8E861DA12FCD9D900AF0A97 /* DoodleCameraViewController.m */,
+				D8E861DC12FCD9D900AF0A97 /* DoodleCameraViewController.xib */,
+				D8E861E812FCDFAD00AF0A97 /* CGUtil.h */,
+				D8E861E912FCDFAD00AF0A97 /* CGUtil.m */,
+				D8E861EB12FCE9BA00AF0A97 /* DrawView.h */,
+				D8E861EC12FCE9BA00AF0A97 /* DrawView.m */,
+				D8E861EE12FCF13400AF0A97 /* PenColorDataSource.h */,
+				D8E861EF12FCF13400AF0A97 /* PenColorDataSource.m */,
+				D8E861CB12FCD9D900AF0A97 /* Supporting Files */,
+				D8E861F112FCF71500AF0A97 /* PenStyleDataSource.h */,
+				D8E861F212FCF71500AF0A97 /* PenStyleDataSource.m */,
+			);
+			path = DoodleCamera;
+			sourceTree = "<group>";
+		};
+		D8E861CB12FCD9D900AF0A97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8E861CC12FCD9D900AF0A97 /* DoodleCamera-Info.plist */,
+				D8E861CD12FCD9D900AF0A97 /* InfoPlist.strings */,
+				D8E861D012FCD9D900AF0A97 /* DoodleCamera-Prefix.pch */,
+				D8E861D112FCD9D900AF0A97 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8E861BF12FCD9D900AF0A97 /* DoodleCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8E861E112FCD9D900AF0A97 /* Build configuration list for PBXNativeTarget "DoodleCamera" */;
+			buildPhases = (
+				D8E861BC12FCD9D900AF0A97 /* Sources */,
+				D8E861BD12FCD9D900AF0A97 /* Frameworks */,
+				D8E861BE12FCD9D900AF0A97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoodleCamera;
+			productName = DoodleCamera;
+			productReference = D8E861C012FCD9D900AF0A97 /* DoodleCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8E861B712FCD9D800AF0A97 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D8E861BA12FCD9D800AF0A97 /* Build configuration list for PBXProject "DoodleCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8E861B512FCD9D800AF0A97;
+			productRefGroup = D8E861C112FCD9D900AF0A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8E861BF12FCD9D900AF0A97 /* DoodleCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8E861BE12FCD9D900AF0A97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E861CF12FCD9D900AF0A97 /* InfoPlist.strings in Resources */,
+				D8E861D812FCD9D900AF0A97 /* MainWindow.xib in Resources */,
+				D8E861DE12FCD9D900AF0A97 /* DoodleCameraViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8E861BC12FCD9D900AF0A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8E861D212FCD9D900AF0A97 /* main.m in Sources */,
+				D8E861D512FCD9D900AF0A97 /* DoodleCameraAppDelegate.m in Sources */,
+				D8E861DB12FCD9D900AF0A97 /* DoodleCameraViewController.m in Sources */,
+				D8E861EA12FCDFAD00AF0A97 /* CGUtil.m in Sources */,
+				D8E861ED12FCE9BA00AF0A97 /* DrawView.m in Sources */,
+				D8E861F012FCF13400AF0A97 /* PenColorDataSource.m in Sources */,
+				D8E861F312FCF71500AF0A97 /* PenStyleDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8E861CD12FCD9D900AF0A97 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8E861CE12FCD9D900AF0A97 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8E861D612FCD9D900AF0A97 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8E861D712FCD9D900AF0A97 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D8E861DC12FCD9D900AF0A97 /* DoodleCameraViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8E861DD12FCD9D900AF0A97 /* en */,
+			);
+			name = DoodleCameraViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8E861DF12FCD9D900AF0A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8E861E012FCD9D900AF0A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D8E861E212FCD9D900AF0A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoodleCamera/DoodleCamera-Prefix.pch";
+				INFOPLIST_FILE = "DoodleCamera/DoodleCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8E861E312FCD9D900AF0A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoodleCamera/DoodleCamera-Prefix.pch";
+				INFOPLIST_FILE = "DoodleCamera/DoodleCamera-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8E861BA12FCD9D800AF0A97 /* Build configuration list for PBXProject "DoodleCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E861DF12FCD9D900AF0A97 /* Debug */,
+				D8E861E012FCD9D900AF0A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8E861E112FCD9D900AF0A97 /* Build configuration list for PBXNativeTarget "DoodleCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8E861E212FCD9D900AF0A97 /* Debug */,
+				D8E861E312FCD9D900AF0A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8E861B712FCD9D800AF0A97 /* Project object */;
+}
